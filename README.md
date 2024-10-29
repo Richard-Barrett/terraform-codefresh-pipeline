@@ -55,7 +55,7 @@ graph TD
 
 An Example of a CICD Integration using Codefresh and BitBucket with this module can be found below:
 
-![Diagram of Terraform Module]([images/diagram.png](https://github.com/Richard-Barrett/terraform-codefresh-pipeline/blob/main/images/diagram.png))
+![Diagram of Terraform Module](https://github.com/Richard-Barrett/terraform-codefresh-pipeline/blob/main/images/diagram.png)
 
 ## Usage
 
