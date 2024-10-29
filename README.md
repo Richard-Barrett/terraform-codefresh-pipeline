@@ -61,7 +61,7 @@ An Example of a CICD Integration using Codefresh and BitBucket with this module 
 
 ```hcl
 module "codefresh_pipeline" {
-  source = "git::https://github.com/Richard-Barrett/terraform-codefresh-pipeline.git?ref=0.1.0"
+  source = "git::https://github.com/Richard-Barrett/terraform-codefresh-pipeline.git?ref=0.2.0"
 
   pipeline_name               = "my-codefresh-pipeline"
   pipeline_repo               = "https://github.com/your-repo.git"
