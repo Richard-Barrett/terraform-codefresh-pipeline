@@ -21,7 +21,7 @@ fixcommit:
 
 .PHONY: diagram
 diagram:
-	python3 diagram.py
+	python diagram.py
 
 .PHONY: tflint
 tflint:

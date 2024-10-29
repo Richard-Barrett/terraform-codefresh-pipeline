@@ -55,13 +55,13 @@ graph TD
 
 An Example of a CICD Integration using Codefresh and BitBucket with this module can be found below:
 
-![Diagram of Terraform Module](images/diagram.png)
+![Diagram of Terraform Module](https://github.com/Richard-Barrett/terraform-codefresh-pipeline/blob/main/images/diagram.png)
 
 ## Usage
 
 ```hcl
 module "codefresh_pipeline" {
-  source = "git::https://github.com/Richard-Barrett/terraform-codefresh-pipeline.git?ref=0.1.0"
+  source = "git::https://github.com/Richard-Barrett/terraform-codefresh-pipeline.git?ref=0.4.0"
 
   pipeline_name               = "my-codefresh-pipeline"
   pipeline_repo               = "https://github.com/your-repo.git"
