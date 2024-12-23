@@ -3,7 +3,7 @@ terraform {
   required_providers {
     codefresh = {
       source  = "codefresh-io/codefresh"
-      version = "0.11.0"
+      version = "0.11.1"
     }
   }
 }
@@ -11,7 +11,7 @@ terraform {
 resource "codefresh_pipeline" "tf-datalake-buckets-terraform" {
   name = var.pipeline_name
 
-  spec {    
+  spec {
     spec_template {
       repo     = var.pipeline_repo
       path     = var.pipeline_path
