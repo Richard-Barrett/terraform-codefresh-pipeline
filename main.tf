@@ -3,7 +3,7 @@ terraform {
   required_providers {
     codefresh = {
       source  = "codefresh-io/codefresh"
-      version = "0.11.0"
+      version = "1.1.0"
     }
   }
 }
