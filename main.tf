@@ -11,7 +11,7 @@ terraform {
 resource "codefresh_pipeline" "tf-datalake-buckets-terraform" {
   name = var.pipeline_name
 
-  spec {    
+  spec {
     spec_template {
       repo     = var.pipeline_repo
       path     = var.pipeline_path
